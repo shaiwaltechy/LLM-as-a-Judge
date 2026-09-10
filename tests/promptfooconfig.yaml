@@ -15,7 +15,7 @@ description: Module 13 Lab 1 - LLM evaluation pipeline with 30+ test cases
 defaultTest:
   options:
     provider:
-      id: groq:chat:llama-3.3-70b-versatile
+      id: groq:chat:openai/gpt-oss-120b
 
 # ─────────────────────────────────────────────────────────────────────────────
 # PROMPTS:
@@ -71,7 +71,7 @@ prompts:
 #   temperature:0 → No randomness — same input always gives same output (good for tests).
 # ─────────────────────────────────────────────────────────────────────────────
 providers:
-  - id: groq:chat:llama-3.3-70b-versatile
+  - id: groq:chat:openai/gpt-oss-120b
     config:
       temperature: 0
 
