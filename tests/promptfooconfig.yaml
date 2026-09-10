@@ -14,8 +14,8 @@ description: Module 13 Lab 1 - LLM evaluation pipeline with 30+ test cases
 # ─────────────────────────────────────────────────────────────────────────────
 defaultTest:
   options:
-    provider:
-      id: groq: openai/gpt-oss-120b
+    provider: groq: openai/gpt-oss-120b
+      
 
 # ─────────────────────────────────────────────────────────────────────────────
 # PROMPTS:
