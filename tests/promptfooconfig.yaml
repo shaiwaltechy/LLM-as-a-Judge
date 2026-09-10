@@ -160,7 +160,7 @@ tests:
       - type: contains-json
       - type: llm-rubric
         value: |
-          The answer should include realistic troubleshooting such as restart, update, cache clearing,
+          The answer should include realistic troubleshooting such as restart, cache clearing,
           reinstall, or checking system/network issues.
 
   # Test 6: Installing a company printer — should stay in enterprise IT scope.
