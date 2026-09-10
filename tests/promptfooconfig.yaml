@@ -74,6 +74,9 @@ providers:
   - id: groq:openai/gpt-oss-120b
     config:
       temperature: 0
+evaluateOptions:
+  maxConcurrency: 1
+  delay: 3000
 
 # ─────────────────────────────────────────────────────────────────────────────
 # TESTS:
